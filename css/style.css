@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  color: #222;
+  background: #174895;
+  margin: 0;
+  padding: 0;
+}
+
+.scroll {
+    transition: background 1s ease !important;
+}
+
+.navbar {
+  font-weight: 400;
+}
+
+h1,h2,h3{
+  font-weight: 700;
+}
+.kepesfelirat h2,h3{
+  font-weight: 300;
+}
+
+
+canvas{
+  width:100vw !important;
+  position:fixed;
+  z-index:0;
+}
+
+.calendar iframe {
+  width: 100%;
+  display: block;
+  height: 100% ;
+  top:100vh;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2px;
+}
+
+figcaption h5 {
+  color: #e5dfdb;
+}
+
+figcaption h6 {
+  color: #d0c9c6;
+}
+
+.kartya-tarto {
+  height: 250px;
+  position: relative;
+  width: 250px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.kartya {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.kartya-tarto:hover > .kartya {
+  transform: rotateY(180deg);
+}
+
+figcaption {
+		margin-top: 10px;
+}
+
+.navpill {
+  border-radius: 1px;
+}
+
+.nav-pill > .active > a,
+.nav-pill > li > a:hover {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ffffff;
+}
+
+.nav-pill a,
+.nav-pill > .active > a:hover {
+  padding-bottom: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+}
+
+
+.oldal {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.kartya-hata {
+  transform: rotateY(180deg);
+}
+
+.kartya img {
+  height: 100%;
+	width: auto;
+}
+
+.no-pad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-top: 25vh;
+  margin-bottom: 2vh;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+  border:  0;
+  outline: 0px ;
+}
+
+.calendar-row{
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  height: auto;
+  width:100vw;
+  padding-top: 20vh;
+}
+
+.kepesfelirat {
+  margin-top: 35vh !important;
+}
+
+.elsosav {
+    height: 110vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.elsosav h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  line-height: 0.98;
+}
+
+.tobbisav {
+    min-height: 60vw;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.tobbisav h1 {
+  font-size: 450%;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.container {
+  z-index: 1;
+}
+
+.lab-padding {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn-outline-white {
+    border: 2px solid #fff!important;
+    background-color: transparent!important;
+    color: #fff!important;
+}
+
+.navbar{
+  padding: 40px 40px 0px;
+  font-size: 14px;
+  width:100vw;
+}
+.navbar.nav li {
+  padding-right: 20px;
+}
+
+.kontener {
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+  color: #fff !important;
+}
+
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #6648b1;
+}
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom:1rem;
+}
+.fa-code {
+  color: #e54d26;
+}
+.fa-bold {
+  color: #563d7c;
+}
+.fa-css3 {
+  color: #2163af;
+}
+.fa-code, .fa-bold, .fa-css3 {
+  font-size: 4em;
+  margin: 1rem;
+}
+.fun {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.gif {
+  max-width: 100%;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #d5d5d5;
+}
+
+.fa-instagram {
+  color: #d5d5d5;
+}
+
+.fa-facebook:hover {
+  color: #3b5998;
+}
+.fa-instagram:hover{
+  color: #8a3ab9
+}
+
+footer {
+  background-color: #07285C;
+  color: #d5d5d5;
+  padding-top: 1rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 50%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+
+  .kartya-tarto {
+    height: 200px;
+    width: 200px;
+  }
+
+  .kontener {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 768px) {
+
+  .elsosav h1, .tobbisav h1 {
+    font-size: 350%;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  .navbar-collapse {
+    background-color:rgba(0, 0, 0, 0.7) !important;
+    width: 100%;
+    top: 7rem;
+    left: 0;
+    position: absolute;
+  }
+  .nav-item {
+    text-align: center;
+  }
+  .text-justify {
+    text-align: left !important;
+}
+}
+
+@media (max-width: 576px) {
+  .elsosav h1, .tobbisav h1 {
+    font-size: 200%;
+  }
+
+  .elsosav h3{
+    font-size: 130% !important;
+  }
+
+  .display-4 {
+    font-size: 2em;
+    padding: .7rem;
+  }
+
+  .kartya-tarto {
+    height: 220px;
+    width: 220px;
+  }
+}
+
+[class*="col-"] {
+    padding: 1rem;
+}
