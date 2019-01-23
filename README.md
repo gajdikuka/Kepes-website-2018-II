@@ -7,5 +7,3 @@
 * [jQuery](https://jquery.com/)
 * [particles.js](https://vincentgarreau.com/particles.js/)
 * [color.js](https://github.com/brehaut/color-js)
-
-## Made in July 2018
